@@ -93,14 +93,14 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 ### 4. Run the tool
 
 ```bash
-python WhatGPTThinks.py
+python reddit_idea_analyzer.py
 ```
 
 ---
 
 ## Configuration
 
-All settings are at the top of `WhatGPTThinks.py` and easy to adjust:
+All settings are at the top of `reddit_idea_analyzer.py` and easy to adjust:
 
 | Setting | Default | Description |
 |---|---|---|
@@ -143,7 +143,7 @@ Each run creates new timestamped files so nothing is overwritten.
 
 ```
 reddit-idea-analyzer/
-├── WhatGPTThinks.py   # Main script
+├── reddit_idea_analyzer.py   # Main script
 ├── .env               # Your API keys (never committed)
 ├── .gitignore         # Ensures .env stays local
 └── README.md          # This file
